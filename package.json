@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-clicknow",
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "TSLint shareable config for ClickNow",
   "main": "index.js",
   "files": [
