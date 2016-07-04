@@ -19,6 +19,7 @@ module.exports = {
             'check-whitespace'
         ],
         'one-variable-per-declaration': [true, 'ignore-for-loop'],
+        'only-arrow-functions': true,
         'quotemark': [true, 'single', 'avoid-escape'],
         'semicolon': [true, 'always'],
         'variable-name': [true,
