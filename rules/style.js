@@ -20,6 +20,7 @@ module.exports = {
         ],
         'one-variable-per-declaration': [true, 'ignore-for-loop'],
         'only-arrow-functions': true,
+        'ordered-imports': false,
         'quotemark': [true, 'single', 'avoid-escape'],
         'semicolon': [true, 'always'],
         'variable-name': [true,
