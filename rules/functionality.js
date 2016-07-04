@@ -30,6 +30,7 @@ module.exports = {
         'no-switch-case-fall-through': false,
         'no-unreachable': true,
         'no-unused-expression': true,
+        'no-unused-new': true,
         'no-unused-variable': [true, 'react'],
         'no-use-before-declare': true,
         'no-var-keyword': true,
