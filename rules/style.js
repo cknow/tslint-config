@@ -3,6 +3,7 @@
 module.exports = {
     rules: {
         'align': [true, 'parameters', 'statements'],
+        'arrow-parens': true,
         'class-name': true,
         'comment-format': [true, 'check-space'],
         'interface-name': [true, 'always-prefix'],
