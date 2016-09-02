@@ -6,6 +6,7 @@ module.exports = {
         'arrow-parens': true,
         'class-name': true,
         'comment-format': [true, 'check-space'],
+        'file-header': false,
         'interface-name': [true, 'always-prefix'],
         'jsdoc-format': true,
         'new-parens': true,
