@@ -5,6 +5,7 @@ module.exports = {
         'eofline': true,
         'indent': [true, 'spaces'],
         'linebreak-style': [true, 'LF'],
+        'max-file-line-count': [true, 300],
         'max-line-length': [true, 120],
         'no-default-export': false,
         'no-mergeable-namespace': true,
