@@ -35,6 +35,7 @@ module.exports = {
         'no-use-before-declare': true,
         'no-var-keyword': true,
         'radix': true,
+        'restrict-plus-operands': false,
         'switch-default': true,
         'triple-equals': true,
         'use-isnan': true,
