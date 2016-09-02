@@ -21,7 +21,7 @@ module.exports = {
             'check-whitespace'
         ],
         'one-variable-per-declaration': [true, 'ignore-for-loop'],
-        'only-arrow-functions': true,
+        'only-arrow-functions': [true, 'allow-declarations'],
         'ordered-imports': false,
         'quotemark': [true, 'single', 'avoid-escape'],
         'semicolon': [true, 'always'],
