@@ -29,6 +29,7 @@ module.exports = {
         'no-string-literal': true,
         'no-switch-case-fall-through': false,
         'no-unreachable': true,
+        'no-unsafe-finally': true,
         'no-unused-expression': true,
         'no-unused-new': true,
         'no-unused-variable': [true, 'react'],
