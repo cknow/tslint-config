@@ -12,6 +12,7 @@ module.exports = {
         'no-angle-bracket-type-assertion': false,
         'no-consecutive-blank-lines': true,
         'no-constructor-vars': false,
+        'object-literal-key-quotes': [true, 'as-needed'],
         'one-line': [true,
             'check-catch',
             'check-else',
