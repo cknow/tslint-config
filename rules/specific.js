@@ -2,6 +2,7 @@
 
 module.exports = {
     rules: {
+        'adjacent-overload-signatures': true,
         'member-access': true,
         'member-ordering': [true, {
             order: [
