@@ -23,6 +23,7 @@ module.exports = {
         'no-duplicate-variable': true,
         'no-empty': true,
         'no-eval': true,
+        'no-for-in-array': false,
         'no-invalid-this': false,
         'no-null-keyword': false,
         'no-shadowed-variable': true,
