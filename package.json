@@ -43,6 +43,7 @@
   "scripts": {
     "check-coverage": "nyc check-coverage --global 100",
     "commit": "git-cz",
+    "commit-msg": "validate-commit-msg",
     "cover": "nyc --reporter lcov --reporter text ava",
     "lint": "eslint index.js rules/ test/",
     "postest": "npm run check-coverage",
@@ -74,7 +75,8 @@
     "rimraf": "^2.6.1",
     "semantic-release": "^6.3.2",
     "tslint": "^5.1.0",
-    "typescript": "^2.2.2"
+    "typescript": "^2.2.2",
+    "validate-commit-msg": "^2.12.1"
   },
   "peerDependencies": {
     "tslint": ">=5.1.0"
