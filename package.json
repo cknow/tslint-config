@@ -5,6 +5,7 @@
   "keywords": [
     "tslint",
     "tslintconfig",
+    "config",
     "code",
     "quality",
     "style",
@@ -40,47 +41,47 @@
     "url": "https://github.com/cknow/tslint-config-clicknow"
   },
   "scripts": {
-    "commit": "git-cz",
-    "watch": "nodemon --exec npm t",
-    "lint": "eslint index.js rules/ test/",
-    "pretest": "npm run lint",
-    "test": "npm run cover",
-    "postest": "npm run check-coverage",
-    "cover": "nyc --reporter lcov --reporter text ava",
     "check-coverage": "nyc check-coverage --global 100",
-    "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "commit": "git-cz",
+    "cover": "nyc --reporter lcov --reporter text ava",
+    "lint": "eslint index.js rules/ test/",
+    "postest": "npm run check-coverage",
+    "precommit": "npm run lint",
+    "precover": "rimraf .nyc_output coverage",
+    "prepush": "npm t",
+    "pretest": "npm run lint",
+    "report-coverage": "cat ./coverage/lcov.info | coveralls",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "npm run cover",
+    "watch": "nodemon --exec npm t"
   },
   "config": {
-    "ghooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm t"
-    },
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
   },
   "devDependencies": {
-    "ava": "^0.16.0",
-    "codecov": "^1.0.1",
-    "commitizen": "^2.8.6",
-    "cz-conventional-changelog": "^1.2.0",
-    "eslint": "^3.6.1",
-    "eslint-config-clicknow": "^1.9.0",
-    "eslint-plugin-ava": "^3.1.0",
-    "ghooks": "^1.3.2",
-    "nodemon": "^1.10.2",
-    "nyc": "^8.3.0",
-    "semantic-release": "^4.3.5",
-    "tslint": "^3.15.1",
-    "typescript": "^2.0.3"
+    "ava": "^0.19.1",
+    "commitizen": "^2.9.6",
+    "coveralls": "^2.13.1",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^3.19.0",
+    "eslint-config-clicknow": "^1.17.0",
+    "eslint-plugin-ava": "^4.2.0",
+    "husky": "^0.13.3",
+    "nodemon": "^1.11.0",
+    "nyc": "^10.2.0",
+    "rimraf": "^2.6.1",
+    "semantic-release": "^6.3.2",
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2"
   },
   "peerDependencies": {
-    "tslint": ">=3.15",
-    "typescript": ">=2"
+    "tslint": ">=5.1.0"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=4",
+    "npm": ">=3"
   },
   "preferGlobal": false,
   "private": false

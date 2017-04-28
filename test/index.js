@@ -1,19 +1,21 @@
 'use strict';
 
-import test from 'ava';
-import TSLint from 'tslint';
+import { test } from 'ava';
+import { Linter, Configuration } from 'tslint';
 
 const runTSLint = text => {
-    const linter = new TSLint('example.ts', text, {
-        configuration: TSLint.loadConfigurationFromPath('../')
+    const linter = new Linter({
+        fix: false
     });
 
-    return linter.lint();
+    linter.lint('foo', text, Configuration.loadConfigurationFromPath('./'));
+
+    return linter.getResult();
 };
 
 test('tslint', t => {
-    const result = runTSLint('let foo = \'a\';\nconsole.log(foo);\n');
+    const result = runTSLint('let foo = \'a\';\n');
 
-    t.is(1, result.failureCount);
-    t.is('typedef', result.failures[0].ruleName);
+    t.is(1, result.errorCount);
+    t.is('typedef', result.failures[0].getRuleName());
 });

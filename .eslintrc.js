@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-    extends: 'clicknow'
+    extends: 'clicknow/esnext'
 };

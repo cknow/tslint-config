@@ -3,6 +3,6 @@
 module.exports = {
     extends: 'clicknow/plugins/ava',
     rules: {
-        'require-jsdoc': 0
+        'require-jsdoc': 'off'
     }
 };

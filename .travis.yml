@@ -1,21 +1,33 @@
 sudo: false
+
 language: node_js
+
 cache:
   directories:
     - node_modules
-branches:
-  only:
-    - master
+    - $HOME/.npm
+    - $HOME/.yarn-cache
+
 notifications:
   email: false
+
 node_js:
   - 4
   - 5
   - 6
+  - 7
+
 before_install:
   - npm i -g npm
+  - npm i -g yarn
+  - yarn
+
 before_script:
   - npm prune
+
+script:
+  - npm test
+
 after_success:
   - npm run report-coverage
   - 'curl -Lo travis_after_all.py https://git.io/travis_after_all'
