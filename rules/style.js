@@ -43,7 +43,7 @@ module.exports = {
         'prefer-template': true,
         'quotemark': [true, 'single', 'avoid-escape'],
         'return-undefined': true,
-        'semicolon': [true, 'always'],
+        'semicolon': [true, 'always', 'ignore-interfaces'],
         'space-before-function-paren': [true, 'always'],
         'variable-name': [true,
             'ban-keywords',
