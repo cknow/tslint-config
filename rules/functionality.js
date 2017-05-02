@@ -31,7 +31,7 @@ module.exports = {
         'no-string-throw': true,
         'no-switch-case-fall-through': true,
         'no-unbound-method': true,
-        'no-unsafe-any': true,
+        'no-unsafe-any': false,
         'no-unsafe-finally': true,
         'no-unused-expression': [true, 'allow-fast-null-checks'],
         'no-unused-variable': true,
