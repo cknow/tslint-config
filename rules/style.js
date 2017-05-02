@@ -21,7 +21,7 @@ module.exports = {
         'no-angle-bracket-type-assertion': false,
         'no-boolean-literal-compare': true,
         'no-consecutive-blank-lines': true,
-        'no-parameter-properties': true,
+        'no-parameter-properties': false,
         'no-reference-import': true,
         'no-trailing-whitespace': true,
         'no-unnecessary-callback-wrapper': true,
