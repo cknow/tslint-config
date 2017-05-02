@@ -18,7 +18,7 @@ module.exports = {
         'match-default-export-name': true,
         'newline-before-return': true,
         'new-parens': true,
-        'no-angle-bracket-type-assertion': true,
+        'no-angle-bracket-type-assertion': false,
         'no-boolean-literal-compare': true,
         'no-consecutive-blank-lines': true,
         'no-parameter-properties': true,
