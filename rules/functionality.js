@@ -40,7 +40,7 @@ module.exports = {
         'no-void-expression': [true, 'ignore-arrow-function-shorthand'],
         'radix': true,
         'restrict-plus-operands': true,
-        'strict-boolean-expressions': true,
+        'strict-boolean-expressions': false,
         'strict-type-predicates': true,
         'switch-default': true,
         'triple-equals': true,
