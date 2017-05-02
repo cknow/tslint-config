@@ -12,7 +12,7 @@ module.exports = {
         'no-default-export': false,
         'no-mergeable-namespace': true,
         'no-require-imports': false,
-        'object-literal-sort-keys': true,
+        'object-literal-sort-keys': false,
         'prefer-const': [true, {
             destructuring: 'any'
         }],
