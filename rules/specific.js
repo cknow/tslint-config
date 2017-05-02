@@ -27,7 +27,7 @@ module.exports = {
         'no-any': false,
         'no-empty-interface': true,
         'no-import-side-effect': false,
-        'no-inferrable-types': true,
+        'no-inferrable-types': [true, 'ignore-params', 'ignore-properties'],
         'no-internal-module': true,
         'no-magic-numbers': true,
         'no-namespace': true,
