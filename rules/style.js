@@ -38,7 +38,7 @@ module.exports = {
         ],
         'one-variable-per-declaration': [true, 'ignore-for-loop'],
         'ordered-imports': false,
-        'prefer-function-over-method': true,
+        'prefer-function-over-method': false,
         'prefer-method-signature': true,
         'prefer-template': true,
         'quotemark': [true, 'single', 'avoid-escape'],
