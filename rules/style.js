@@ -44,7 +44,13 @@ module.exports = {
         'quotemark': [true, 'single', 'avoid-escape'],
         'return-undefined': true,
         'semicolon': [true, 'always', 'ignore-interfaces'],
-        'space-before-function-paren': [true, 'always'],
+        'space-before-function-paren': [true, {
+            anonymous: 'always',
+            named: 'never',
+            asyncArrow: 'always',
+            method: 'never',
+            constructor: 'never'
+        }],
         'variable-name': [true,
             'ban-keywords',
             'check-format',
