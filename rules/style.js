@@ -9,7 +9,7 @@ module.exports = {
         'callable-types': true,
         'class-name': true,
         'comment-format': [true, 'check-space', 'check-uppercase'],
-        'completed-docs': true,
+        'completed-docs': [true, 'functions', 'methods', 'properties'],
         'file-header': false,
         'import-spacing': true,
         'interface-name': [true, 'never-prefix'],
