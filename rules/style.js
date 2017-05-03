@@ -2,7 +2,7 @@
 
 module.exports = {
     rules: {
-        'align': [true, 'parameters', 'arguments', 'statements'],
+        'align': [true, 'parameters', 'statements'],
         'array-type': [true, 'array'],
         'arrow-parens': [true, 'ban-single-arg-parens'],
         'arrow-return-shorthand': [true, 'multiline'],
