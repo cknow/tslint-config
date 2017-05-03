@@ -4,7 +4,9 @@
   "description": "TSLint shareable config for ClickNow",
   "keywords": [
     "tslint",
-    "tslintconfig",
+    "tslint-config",
+    "tslint-rules",
+    "typescript",
     "config",
     "code",
     "quality",
