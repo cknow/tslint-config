@@ -25,6 +25,7 @@ module.exports = {
         'no-invalid-this': true,
         'no-misused-new': true,
         'no-null-keyword': false,
+        'no-object-literal-type-assertion': true,
         'no-shadowed-variable': true,
         'no-sparse-arrays': true,
         'no-string-literal': true,

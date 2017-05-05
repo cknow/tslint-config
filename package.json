@@ -73,15 +73,15 @@
     "eslint-plugin-ava": "^4.2.0",
     "husky": "^0.13.3",
     "nodemon": "^1.11.0",
-    "nyc": "^10.2.0",
+    "nyc": "^10.3.0",
     "rimraf": "^2.6.1",
     "semantic-release": "^6.3.2",
-    "tslint": "^5.1.0",
-    "typescript": "^2.2.2",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2",
     "validate-commit-msg": "^2.12.1"
   },
   "peerDependencies": {
-    "tslint": ">=5.1.0"
+    "tslint": ">=5.2.0"
   },
   "engines": {
     "node": ">=4",

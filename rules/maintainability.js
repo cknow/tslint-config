@@ -3,6 +3,7 @@
 module.exports = {
     rules: {
         'cyclomatic-complexity': [true, 20],
+        'deprecation': true,
         'eofline': true,
         'indent': [true, 'spaces'],
         'linebreak-style': [true, 'LF'],

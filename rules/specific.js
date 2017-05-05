@@ -33,6 +33,7 @@ module.exports = {
         'no-namespace': true,
         'no-non-null-assertion': true,
         'no-reference': true,
+        'no-unnecessary-type-assertion': true,
         'no-var-requires': true,
         'only-arrow-functions': true,
         'prefer-for-of': true,
