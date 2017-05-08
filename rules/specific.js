@@ -45,6 +45,7 @@ module.exports = {
             'arrow-parameter',
             'property-declaration',
             'member-variable-declaration',
+            'variable-declaration',
             'object-destructuring',
             'array-destructuring'
         ],
