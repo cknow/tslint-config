@@ -29,7 +29,7 @@ module.exports = {
         'no-import-side-effect': false,
         'no-inferrable-types': [true, 'ignore-params', 'ignore-properties'],
         'no-internal-module': true,
-        'no-magic-numbers': true,
+        'no-magic-numbers': false,
         'no-namespace': true,
         'no-non-null-assertion': true,
         'no-reference': true,
