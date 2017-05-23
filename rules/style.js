@@ -44,7 +44,7 @@ module.exports = {
         'prefer-method-signature': true,
         'prefer-switch': true,
         'prefer-template': true,
-        'quotemark': [true, 'single', 'avoid-escape'],
+        'quotemark': [true, 'single', 'avoid-escape', 'avoid-template'],
         'return-undefined': true,
         'semicolon': [true, 'always', 'ignore-interfaces'],
         'space-before-function-paren': [true, {
