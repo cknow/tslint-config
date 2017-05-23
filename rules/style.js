@@ -10,6 +10,7 @@ module.exports = {
         'class-name': true,
         'comment-format': [true, 'check-space', 'check-uppercase'],
         'completed-docs': [true, 'functions', 'methods', 'properties'],
+        'encoding': true,
         'file-header': false,
         'import-spacing': true,
         'interface-name': [true, 'never-prefix'],
