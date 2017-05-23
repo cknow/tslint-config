@@ -39,7 +39,7 @@ module.exports = {
         'no-use-before-declare': true,
         'no-var-keyword': true,
         'no-void-expression': false,
-        'prefer-conditional': true,
+        'prefer-conditional-expression': true,
         'prefer-object-spread': true,
         'radix': true,
         'restrict-plus-operands': true,
