@@ -15,7 +15,7 @@ module.exports = {
         'no-construct': true,
         'no-debugger': true,
         'no-duplicate-super': true,
-        'no-duplicate-variable': true,
+        'no-duplicate-variable': [true, 'check-parameters'],
         'no-empty': true,
         'no-eval': true,
         'no-floating-promises': true,
@@ -48,6 +48,7 @@ module.exports = {
         'switch-default': true,
         'triple-equals': true,
         'typeof-compare': true,
+        'use-default-type-parameter': true,
         'use-isnan': true
     }
 };
