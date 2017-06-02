@@ -55,6 +55,7 @@ module.exports = {
             method: 'never',
             constructor: 'never'
         }],
+        'switch-final-break': [true, 'always'],
         'variable-name': [true,
             'ban-keywords',
             'check-format',
