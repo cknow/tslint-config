@@ -4,7 +4,7 @@ module.exports = {
     rules: {
         'await-promise': true,
         'ban': false,
-        'curly': [true, 'ignore-same-line'],
+        'curly': [true, 'as-needed'],
         'forin': true,
         'import-blacklist': true,
         'label-position': true,
