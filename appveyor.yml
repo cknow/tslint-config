@@ -4,7 +4,7 @@ clone_depth: 1
 
 cache:
   - node_modules
-  - '%APPDATA%\npm-cache'
+  - '%LOCALAPPDATA%/Yarn'
 
 environment:
   matrix:
@@ -21,7 +21,6 @@ install:
   - ps: Install-Product node $env:nodejs_version
   - npm i -g npm
   - npm i -g yarn
-  - npm i color-convert
   - yarn
 
 before_test:

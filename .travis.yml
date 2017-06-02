@@ -3,10 +3,9 @@ sudo: false
 language: node_js
 
 cache:
+  yarn: true
   directories:
     - node_modules
-    - $HOME/.npm
-    - $HOME/.yarn-cache
 
 notifications:
   email: false
