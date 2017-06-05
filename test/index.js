@@ -8,7 +8,7 @@ const runTSLint = text => {
         fix: false
     });
 
-    linter.lint('foo', text, Configuration.loadConfigurationFromPath('./'));
+    linter.lint(require.resolve('./fixtures/example.ts'), text, Configuration.loadConfigurationFromPath('./'));
 
     return linter.getResult();
 };

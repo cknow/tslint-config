@@ -1,6 +1,7 @@
 module.exports = function(wallaby) {
     return {
         files: [
+            'test/fixtures/**',
             'rules/**/*.js',
             'index.js'
         ],
