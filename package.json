@@ -78,7 +78,7 @@
     "nyc": "^11.0.2",
     "rimraf": "^2.6.1",
     "semantic-release": "^6.3.6",
-    "tslint": "^5.4.2",
+    "tslint": "^5.4.3",
     "typescript": "^2.3.4",
     "validate-commit-msg": "^2.12.1"
   },
