@@ -1597,9 +1597,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-clicknow@^1.17.0:
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-clicknow/-/eslint-config-clicknow-1.17.0.tgz#c08bd82ebf8cb60f35612a093983419565e06c8d"
+eslint-config-clicknow@^1.18.0:
+  version "1.18.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-clicknow/-/eslint-config-clicknow-1.18.0.tgz#f9abebe7e567c486549205692a81c3099a953673"
 
 eslint-plugin-ava@^4.2.0:
   version "4.2.0"
