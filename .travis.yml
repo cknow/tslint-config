@@ -18,7 +18,7 @@ node_js:
   - 8
 
 before_install:
-  - npm i -g npm@4.6.1
+  - npm i -g npm@4
   - npm i -g yarn
   - yarn
 
@@ -26,6 +26,9 @@ before_script:
   - npm prune
 
 script:
+  - node --version
+  - npm --version
+  - yarn --version
   - npm test
 
 after_success:
