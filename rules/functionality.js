@@ -31,6 +31,9 @@ module.exports = {
         'no-string-literal': true,
         'no-string-throw': true,
         'no-switch-case-fall-through': true,
+        'no-this-assignment': [true, {
+            'allow-destructuring': true
+        }],
         'no-unbound-method': true,
         'no-unsafe-any': false,
         'no-unsafe-finally': true,
