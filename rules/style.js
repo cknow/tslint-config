@@ -59,6 +59,7 @@ module.exports = {
             method: 'never',
             constructor: 'never'
         }],
+        'space-within-parens': 0,
         'switch-final-break': [true, 'always'],
         'variable-name': [true,
             'ban-keywords',
