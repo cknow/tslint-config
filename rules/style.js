@@ -41,7 +41,10 @@ module.exports = {
             'check-whitespace'
         ],
         'one-variable-per-declaration': [true, 'ignore-for-loop'],
-        'ordered-imports': false,
+        'ordered-imports': [true, {
+            'import-sources-order': 'case-insensitive',
+            'named-imports-order': 'case-insensitive'
+        }],
         'prefer-function-over-method': false,
         'prefer-method-signature': true,
         'prefer-switch': true,
