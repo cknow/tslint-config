@@ -26,7 +26,15 @@ module.exports = {
         'no-misused-new': true,
         'no-null-keyword': false,
         'no-object-literal-type-assertion': true,
-        'no-shadowed-variable': true,
+        'no-shadowed-variable': [true, {
+            class: true,
+            enum: true,
+            function: true,
+            interface: true,
+            namespace: true,
+            typeAlias: true,
+            typeParameter: true
+        }],
         'no-sparse-arrays': true,
         'no-string-literal': true,
         'no-string-throw': true,
