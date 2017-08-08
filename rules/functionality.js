@@ -38,6 +38,7 @@ module.exports = {
         'no-sparse-arrays': true,
         'no-string-literal': true,
         'no-string-throw': true,
+        'no-submodule-imports': false,
         'no-switch-case-fall-through': true,
         'no-this-assignment': [true, {
             'allow-destructuring': true
@@ -50,7 +51,7 @@ module.exports = {
         'no-use-before-declare': true,
         'no-var-keyword': true,
         'no-void-expression': false,
-        'prefer-conditional-expression': true,
+        'prefer-conditional-expression': [true, 'check-else-if'],
         'prefer-object-spread': false,
         'radix': true,
         'restrict-plus-operands': true,
