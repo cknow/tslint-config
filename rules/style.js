@@ -61,6 +61,7 @@ module.exports = {
         }],
         'space-within-parens': 0,
         'switch-final-break': [true, 'always'],
+        'type-literal-delimiter': true,
         'variable-name': [true,
             'ban-keywords',
             'check-format',
