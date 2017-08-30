@@ -70,12 +70,14 @@ module.exports = {
         'whitespace': [true,
             'check-branch',
             'check-decl',
-            'check-operator',
             'check-module',
+            'check-operator',
             'check-preblock',
+            'check-rest-spread',
             'check-separator',
             'check-type',
-            'check-typecast'
+            'check-typecast',
+            'check-type-operator'
         ]
     }
 };
