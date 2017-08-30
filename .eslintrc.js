@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-    extends: 'clicknow/esnext'
+    extends: '@cknow/eslint-config/esnext'
 };

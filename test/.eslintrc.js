@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-    extends: 'clicknow/plugins/ava',
+    extends: '@cknow/eslint-config/plugins/ava',
     rules: {
         'require-jsdoc': 'off'
     }
