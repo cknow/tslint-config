@@ -32,6 +32,7 @@ module.exports = {
         'no-magic-numbers': false,
         'no-namespace': true,
         'no-non-null-assertion': true,
+        'no-parameter-reassignment': true,
         'no-reference': true,
         'no-unnecessary-type-assertion': true,
         'no-var-requires': true,
