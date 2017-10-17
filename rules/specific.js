@@ -39,7 +39,8 @@ module.exports = {
         'only-arrow-functions': [true, 'allow-declarations', 'allow-named-functions'],
         'prefer-for-of': true,
         'promise-function-async': true,
-        'typedef': [true,
+        'typedef': [
+            true,
             'call-signature',
             'arrow-call-signature',
             'parameter',

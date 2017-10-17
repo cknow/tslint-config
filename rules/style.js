@@ -33,7 +33,8 @@ module.exports = {
         'number-literal-format': true,
         'object-literal-key-quotes': [true, 'consistent-as-needed'],
         'object-literal-shorthand': true,
-        'one-line': [true,
+        'one-line': [
+            true,
             'check-catch',
             'check-else',
             'check-finally',
@@ -62,12 +63,14 @@ module.exports = {
         'space-within-parens': 0,
         'switch-final-break': [true, 'always'],
         'type-literal-delimiter': true,
-        'variable-name': [true,
+        'variable-name': [
+            true,
             'ban-keywords',
             'check-format',
             'allow-leading-underscore'
         ],
-        'whitespace': [true,
+        'whitespace': [
+            true,
             'check-branch',
             'check-decl',
             'check-module',
