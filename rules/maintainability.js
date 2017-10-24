@@ -20,7 +20,8 @@ module.exports = {
         }],
         'trailing-comma': [true, {
             multiline: 'never',
-            singleline: 'never'
+            singleline: 'never',
+            esSpecCompliant: true
         }]
     }
 };
