@@ -45,6 +45,12 @@ module.exports = {
         'no-this-assignment': [true, {
             'allow-destructuring': true
         }],
+        'no-unnecessary-class': [
+            true,
+            'allow-constructor-only',
+            'allow-empty-class',
+            'allow-static-only'
+        ],
         'no-unbound-method': true,
         'no-unsafe-any': false,
         'no-unsafe-finally': true,
