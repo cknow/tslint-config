@@ -59,7 +59,6 @@ module.exports = {
         'strict-type-predicates': true,
         'switch-default': true,
         'triple-equals': true,
-        'typeof-compare': true,
         'use-default-type-parameter': true,
         'use-isnan': true
     }
