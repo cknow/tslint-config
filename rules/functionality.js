@@ -21,6 +21,7 @@ module.exports = {
         'no-eval': true,
         'no-floating-promises': true,
         'no-for-in-array': true,
+        'no-implicit-dependencies': [true, 'dev'],
         'no-inferred-empty-object-type': true,
         'no-invalid-template-strings': true,
         'no-invalid-this': true,
