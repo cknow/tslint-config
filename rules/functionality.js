@@ -15,6 +15,7 @@ module.exports = {
         'no-construct': true,
         'no-debugger': true,
         'no-duplicate-super': true,
+        'no-duplicate-switch-case': true,
         'no-duplicate-variable': [true, 'check-parameters'],
         'no-empty': [true, 'allow-empty-catch'],
         'no-eval': true,
