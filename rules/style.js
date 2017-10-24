@@ -44,7 +44,9 @@ module.exports = {
         'one-variable-per-declaration': [true, 'ignore-for-loop'],
         'ordered-imports': [true, {
             'import-sources-order': 'case-insensitive',
-            'named-imports-order': 'case-insensitive'
+            'grouped-imports': true,
+            'named-imports-order': 'case-insensitive',
+            'module-source-path': 'full'
         }],
         'prefer-function-over-method': false,
         'prefer-method-signature': true,
