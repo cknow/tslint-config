@@ -3,6 +3,7 @@
 module.exports = {
     rules: {
         'adjacent-overload-signatures': true,
+        'ban-comma-operator': true,
         'ban-types': false,
         'member-access': [true, 'check-accessor', 'check-constructor', 'check-parameter-property'],
         'member-ordering': [true, {
