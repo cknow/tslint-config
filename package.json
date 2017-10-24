@@ -78,12 +78,12 @@
     "nyc": "^11.2.1",
     "rimraf": "^2.6.2",
     "semantic-release": "^8.2.0",
-    "tslint": "^5.7.0",
+    "tslint": "^5.8.0",
     "typescript": "^2.5.3",
     "validate-commit-msg": "^2.14.0"
   },
   "peerDependencies": {
-    "tslint": ">=5.7.0"
+    "tslint": ">=5.8.0"
   },
   "engines": {
     "node": ">=4",
