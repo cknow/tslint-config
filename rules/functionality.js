@@ -26,6 +26,7 @@ module.exports = {
         'no-misused-new': true,
         'no-null-keyword': false,
         'no-object-literal-type-assertion': true,
+        'no-return-await': true,
         'no-shadowed-variable': [true, {
             class: true,
             enum: true,
