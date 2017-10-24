@@ -25,6 +25,7 @@ module.exports = {
         'no-consecutive-blank-lines': true,
         'no-irregular-whitespace': true,
         'no-parameter-properties': false,
+        'no-redundant-jsdoc': true,
         'no-reference-import': true,
         'no-trailing-whitespace': true,
         'no-unnecessary-callback-wrapper': true,
