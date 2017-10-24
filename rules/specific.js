@@ -4,7 +4,7 @@ module.exports = {
     rules: {
         'adjacent-overload-signatures': true,
         'ban-types': false,
-        'member-access': [true, 'check-accessor', 'check-constructor'],
+        'member-access': [true, 'check-accessor', 'check-constructor', 'check-parameter-property'],
         'member-ordering': [true, {
             order: [
                 'public-static-field',
