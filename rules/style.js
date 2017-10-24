@@ -16,7 +16,7 @@ module.exports = {
         'import-spacing': true,
         'interface-name': [true, 'never-prefix'],
         'interface-over-type-literal': true,
-        'jsdoc-format': true,
+        'jsdoc-format': [true, 'check-multiline-start'],
         'match-default-export-name': true,
         'newline-before-return': true,
         'new-parens': true,
