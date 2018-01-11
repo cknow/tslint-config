@@ -18,6 +18,7 @@ module.exports = {
         'prefer-const': [true, {
             destructuring: 'any'
         }],
+        'prefer-readonly': [true, 'only-inline-lambdas'],
         'trailing-comma': [true, {
             multiline: 'never',
             singleline: 'never',
