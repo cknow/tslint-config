@@ -19,6 +19,7 @@ module.exports = {
         'jsdoc-format': [true, 'check-multiline-start'],
         'match-default-export-name': true,
         'newline-before-return': true,
+        'newline-per-chained-call': false,
         'new-parens': true,
         'no-angle-bracket-type-assertion': false,
         'no-boolean-literal-compare': true,
