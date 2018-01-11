@@ -17,6 +17,7 @@ module.exports = {
         'no-duplicate-super': true,
         'no-duplicate-switch-case': true,
         'no-duplicate-variable': [true, 'check-parameters'],
+        'no-dynamic-delete': true,
         'no-empty': [true, 'allow-empty-catch'],
         'no-eval': true,
         'no-floating-promises': true,
@@ -36,7 +37,8 @@ module.exports = {
             interface: true,
             namespace: true,
             typeAlias: true,
-            typeParameter: true
+            typeParameter: true,
+            temporalDeadZone: true
         }],
         'no-sparse-arrays': true,
         'no-string-literal': true,
