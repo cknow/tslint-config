@@ -1,4 +1,5 @@
 # TSLint Config
+
 > TSLint [shareable config](http://palantir.github.io/tslint/usage/cli/)
 
 [![NPM Version](https://img.shields.io/npm/v/@cknow/tslint-config.svg)](https://www.npmjs.com/package/@cknow/tslint-config)
@@ -9,7 +10,10 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/8clpagh6wqasa8v9/branch/master?svg=true)](https://ci.appveyor.com/project/cknow/tslint-config/branch/master)
 [![Coverage Status](https://coveralls.io/repos/github/cknow/tslint-config/badge.svg?branch=master)](https://coveralls.io/github/cknow/tslint-config?branch=master)
 
-[![Dependency Status](https://dependencyci.com/github/cknow/tslint-config/badge)](https://dependencyci.com/github/cknow/tslint-config)
+[![Code Climate](https://codeclimate.com/github/cknow/tslint-config/badges/gpa.svg)](https://codeclimate.com/github/cknow/tslint-config)
+[![Test Coverage](https://codeclimate.com/github/cknow/tslint-config/badges/coverage.svg)](https://codeclimate.com/github/cknow/tslint-config/coverage)
+[![Issue Count](https://codeclimate.com/github/cknow/tslint-config/badges/issue_count.svg)](https://codeclimate.com/github/cknow/tslint-config)
+
 [![Dependencies Status](https://david-dm.org/cknow/tslint-config/status.svg)](https://david-dm.org/cknow/tslint-config)
 [![devDependencies Status](https://david-dm.org/cknow/tslint-config/dev-status.svg)](https://david-dm.org/cknow/tslint-config?type=dev)
 [![peerDependencies Status](https://david-dm.org/cknow/tslint-config/peer-status.svg)](https://david-dm.org/cknow/tslint-config?type=peer)
@@ -22,16 +26,17 @@
 
 ## Install
 
-```
+```bash
 npm install --save-dev @cknow/tslint-config
 ```
 
 ## Usage
+
 > TSLint [Configuration File Formats](http://palantir.github.io/tslint/usage/tslint-json/)
 
 Add some TSLint config to your `tslint.json`:
 
-```
+```bash
 {
   "extends": "@cknow/tslint-config"
 }
@@ -39,7 +44,7 @@ Add some TSLint config to your `tslint.json`:
 
 ## Usage direct on command line
 
-```
+```bash
 tslint --config ./node_modules/@cknow/tslint-config/index.js
 ```
 
