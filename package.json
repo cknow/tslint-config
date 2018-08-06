@@ -82,7 +82,7 @@
     "tslint": ">=5.11.0"
   },
   "engines": {
-    "node": ">=4",
+    "node": ">=6",
     "npm": ">=3"
   },
   "preferGlobal": false,
