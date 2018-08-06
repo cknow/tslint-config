@@ -4,8 +4,16 @@ module.exports = {
     rules: {
         'adjacent-overload-signatures': true,
         'ban-comma-operator': true,
-        'ban-types': false,
-        'member-access': [true, 'check-accessor', 'check-constructor', 'check-parameter-property'],
+        'ban-types': [
+            true,
+            ['Object', 'Avoid using the `Object` type. Did you mean `object`?'],
+            ['Function', 'Avoid using the `Function` type. Prefer a specific function type, like `() => void`.'],
+            ['Boolean', 'Avoid using the `Boolean` type. Did you mean `boolean`?'],
+            ['Number', 'Avoid using the `Number` type. Did you mean `number`?'],
+            ['String', 'Avoid using the `String` type. Did you mean `string`?'],
+            ['Symbol', 'Avoid using the `Symbol` type. Did you mean `symbol`?']
+        ],
+        'member-access': [true, 'no-public'],
         'member-ordering': [true, {
             order: [
                 'public-static-field',
@@ -27,10 +35,10 @@ module.exports = {
         }],
         'no-any': false,
         'no-empty-interface': true,
-        'no-import-side-effect': false,
-        'no-inferrable-types': false,
+        'no-import-side-effect': true,
+        'no-inferrable-types': [true, 'ignore-params', 'ignore-properties'],
         'no-internal-module': true,
-        'no-magic-numbers': false,
+        'no-magic-numbers': true,
         'no-namespace': true,
         'no-non-null-assertion': true,
         'no-parameter-reassignment': true,
@@ -39,7 +47,13 @@ module.exports = {
         'no-var-requires': true,
         'only-arrow-functions': [true, 'allow-declarations', 'allow-named-functions'],
         'prefer-for-of': true,
-        'promise-function-async': true,
+        'promise-function-async': [
+            true,
+            'check-function-declaration',
+            'check-function-expression',
+            'check-arrow-function',
+            'check-method-declaration'
+        ],
         'typedef': [
             true,
             'call-signature',
