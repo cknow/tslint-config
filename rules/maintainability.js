@@ -14,7 +14,7 @@ module.exports = {
         'no-duplicate-imports': true,
         'no-mergeable-namespace': true,
         'no-require-imports': true,
-        'object-literal-sort-keys': true,
+        'object-literal-sort-keys': false,
         'prefer-const': [true, {
             destructuring: 'any'
         }],
