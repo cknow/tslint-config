@@ -51,7 +51,7 @@ module.exports = {
             'named-imports-order': 'case-insensitive',
             'module-source-path': 'full'
         }],
-        'prefer-function-over-method': true,
+        'prefer-function-over-method': [true, 'allow-public', 'allow-protected'],
         'prefer-method-signature': true,
         'prefer-switch': true,
         'prefer-template': true,
