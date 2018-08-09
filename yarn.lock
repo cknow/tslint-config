@@ -118,9 +118,9 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
-"@cknow/eslint-config@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@cknow/eslint-config/-/eslint-config-3.3.0.tgz#d9b0994fae2ad2533a354273ffbf236e1d71a84e"
+"@cknow/eslint-config@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/@cknow/eslint-config/-/eslint-config-3.4.0.tgz#82f7bc2f96b5263f2a883363b832fa23249fb292"
 
 "@commitlint/cli@^7.0.0":
   version "7.0.0"

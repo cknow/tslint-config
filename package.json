@@ -63,7 +63,7 @@
     ]
   },
   "devDependencies": {
-    "@cknow/eslint-config": "^3.3.0",
+    "@cknow/eslint-config": "^3.4.0",
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
     "@commitlint/prompt-cli": "^7.0.0",
