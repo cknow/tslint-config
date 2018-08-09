@@ -20,7 +20,7 @@ module.exports = {
         'no-dynamic-delete': true,
         'no-empty': [true, 'allow-empty-catch'],
         'no-eval': true,
-        'no-floating-promises': true,
+        'no-floating-promises': false,
         'no-for-in-array': true,
         'no-implicit-dependencies': [true, 'dev'],
         'no-inferred-empty-object-type': true,
