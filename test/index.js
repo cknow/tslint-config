@@ -1,6 +1,6 @@
 'use strict';
 
-import { test } from 'ava';
+import test from 'ava';
 import { Linter, Configuration } from 'tslint';
 
 const runTSLint = text => {
