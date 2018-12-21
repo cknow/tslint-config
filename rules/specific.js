@@ -4,6 +4,7 @@ module.exports = {
     rules: {
         'adjacent-overload-signatures': true,
         'ban-comma-operator': true,
+        'ban-ts-ignore': false,
         'ban-types': [
             true,
             ['Object', 'Avoid using the `Object` type. Did you mean `object`?'],
