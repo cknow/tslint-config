@@ -11,6 +11,7 @@ module.exports = {
         'max-file-line-count': [true, 300],
         'max-line-length': [true, 120],
         'no-default-export': false,
+        'no-default-import': false,
         'no-duplicate-imports': true,
         'no-mergeable-namespace': true,
         'no-require-imports': true,
