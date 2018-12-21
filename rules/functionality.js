@@ -6,6 +6,7 @@ module.exports = {
         'ban': false,
         'curly': [true, 'ignore-same-line'],
         'forin': true,
+        'function-constructor': true,
         'import-blacklist': true,
         'label-position': true,
         'no-arg': true,
