@@ -10,6 +10,7 @@ module.exports = {
         'callable-types': true,
         'class-name': true,
         'comment-format': [true, 'check-space', 'check-uppercase'],
+        'comment-type': [true, 'singleline', 'multiline', 'doc', 'directive'],
         'completed-docs': [true, 'functions', 'methods', 'properties'],
         'encoding': true,
         'file-header': false,
