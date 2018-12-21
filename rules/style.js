@@ -16,6 +16,7 @@ module.exports = {
         'file-header': false,
         'file-name-casing': [true, 'kebab-case'],
         'import-spacing': true,
+        'increment-decrement': [true, 'allow-post'],
         'interface-name': [true, 'never-prefix'],
         'interface-over-type-literal': true,
         'jsdoc-format': [true, 'check-multiline-start'],
