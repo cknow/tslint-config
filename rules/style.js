@@ -72,6 +72,7 @@ module.exports = {
         'switch-final-break': [true, 'always'],
         'type-literal-delimiter': true,
         'unnecessary-bind': true,
+        'unnecessary-else': true,
         'variable-name': [
             true,
             'ban-keywords',
