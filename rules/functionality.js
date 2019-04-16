@@ -29,17 +29,23 @@ module.exports = {
         'no-invalid-this': true,
         'no-misused-new': true,
         'no-null-keyword': false,
-        'no-object-literal-type-assertion': true,
+        'no-null-undefined-union': true,
+        'no-object-literal-type-assertion': [true, {
+            'allow-arguments': true
+        }],
+        'no-restricted-globals': false,
         'no-return-await': true,
         'no-shadowed-variable': [true, {
             class: true,
             enum: true,
             function: true,
+            import: true,
             interface: true,
             namespace: true,
             typeAlias: true,
             typeParameter: true,
-            temporalDeadZone: true
+            temporalDeadZone: true,
+            underscore: true
         }],
         'no-sparse-arrays': true,
         'no-string-literal': true,
@@ -49,6 +55,7 @@ module.exports = {
         'no-this-assignment': [true, {
             'allow-destructuring': true
         }],
+        'no-tautology-expression': true,
         'no-unnecessary-class': [
             true,
             'allow-constructor-only',
@@ -66,6 +73,7 @@ module.exports = {
         'prefer-object-spread': true,
         'radix': true,
         'restrict-plus-operands': true,
+        'static-this': true,
         'strict-boolean-expressions': false,
         'strict-type-predicates': true,
         'switch-default': true,
