@@ -12,7 +12,9 @@ module.exports = {
         'max-line-length': [true, 120],
         'no-default-export': false,
         'no-default-import': false,
-        'no-duplicate-imports': true,
+        'no-duplicate-imports': [true, {
+            'allow-namespace-imports': true
+        }],
         'no-mergeable-namespace': true,
         'no-require-imports': true,
         'object-literal-sort-keys': false,
