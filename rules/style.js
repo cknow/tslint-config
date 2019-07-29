@@ -9,7 +9,7 @@ module.exports = {
         'binary-expression-operand-order': true,
         'callable-types': true,
         'class-name': true,
-        'comment-format': [true, 'check-space', 'check-uppercase'],
+        'comment-format': [true, 'check-space', 'check-uppercase', 'allow-trailing-lowercase'],
         'comment-type': [true, 'singleline', 'multiline', 'doc', 'directive'],
         'completed-docs': [true, 'functions', 'methods', 'properties'],
         'encoding': true,
@@ -72,7 +72,9 @@ module.exports = {
         'switch-final-break': [true, 'always'],
         'type-literal-delimiter': true,
         'unnecessary-bind': true,
-        'unnecessary-else': true,
+        'unnecessary-else': [true, {
+            'allow-else-if': true
+        }],
         'variable-name': [
             true,
             'ban-keywords',
