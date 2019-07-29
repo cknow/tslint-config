@@ -66,7 +66,6 @@ module.exports = {
         'no-unsafe-any': false,
         'no-unsafe-finally': true,
         'no-unused-expression': [true, 'allow-fast-null-checks'],
-        'no-use-before-declare': true,
         'no-var-keyword': true,
         'no-void-expression': false,
         'prefer-conditional-expression': [true, 'check-else-if'],
