@@ -75,6 +75,10 @@ module.exports = {
         'restrict-plus-operands': true,
         'static-this': true,
         'strict-boolean-expressions': false,
+        'strict-comparisons': [true, {
+            'allow-object-equal-comparison': true,
+            'allow-string-order-comparison': true
+        }],
         'strict-type-predicates': true,
         'switch-default': true,
         'triple-equals': true,
