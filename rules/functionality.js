@@ -10,6 +10,7 @@ module.exports = {
         'import-blacklist': true,
         'label-position': true,
         'no-arg': true,
+        'no-async-without-await': true,
         'no-bitwise': true,
         'no-conditional-assignment': true,
         'no-console': [true, 'error', 'log'],
