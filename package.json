@@ -78,7 +78,7 @@
     "tslint": ">=5.18.0"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "private": false,
   "publishConfig": {
