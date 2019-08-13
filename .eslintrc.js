@@ -1,5 +1,4 @@
-'use strict';
-
 module.exports = {
-    extends: '@cknow/eslint-config'
-};
+  root: true,
+  extends: '@datalogix/eslint-config'
+}

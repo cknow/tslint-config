@@ -1,5 +1,5 @@
 {
-  "name": "@cknow/tslint-config",
+  "name": "@datalogix/tslint-config",
   "version": "0.0.0-semantically-released",
   "description": "TSLint shareable config",
   "keywords": [
@@ -22,10 +22,10 @@
     "verify",
     "enforce"
   ],
-  "homepage": "https://github.com/cknow/tslint-config",
+  "homepage": "https://github.com/datalogix/tslint-config",
   "bugs": {
-    "url": "https://github.com/cknow/tslint-config/issues",
-    "email": "ricardo@clicknow.com.br"
+    "url": "https://github.com/datalogix/tslint-config/issues",
+    "email": "developer@datalogix.com.br"
   },
   "license": "MIT",
   "author": {
@@ -40,7 +40,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cknow/tslint-config.git"
+    "url": "https://github.com/datalogix/tslint-config.git"
   },
   "scripts": {
     "check-coverage": "nyc check-coverage --global 100",
@@ -50,32 +50,27 @@
     "postcoverage": "npm run check-coverage",
     "precoverage": "rimraf .nyc_output coverage",
     "pretest": "npm run lint",
-    "report-coverage": "cat ./coverage/lcov.info | coveralls",
+    "report-coverage": "codecov",
     "test": "npm run coverage",
     "watch": "ava --watch"
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "devDependencies": {
-    "@cknow/eslint-config": "^4.1.0",
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
     "@commitlint/prompt-cli": "^8.1.0",
+    "@datalogix/eslint-config": "^6.0.0",
     "ava": "^2.2.0",
-    "coveralls": "^3.0.5",
+    "codecov": "^3.5.0",
     "eslint": "^6.1.0",
     "eslint-plugin-ava": "^7.1.0",
-    "husky": "^3.0.2",
+    "husky": "^3.0.3",
     "nyc": "^14.1.1",
     "rimraf": "^2.6.3",
     "tslint": "^5.18.0",
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
-    "tslint": ">=5.18.0"
+    "tslint": ">=5"
   },
   "engines": {
     "node": ">=8"

@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
-    extends: '@cknow/eslint-config/plugins/ava'
-};
+  extends: '@datalogix/eslint-config/plugins/ava'
+}
