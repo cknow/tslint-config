@@ -4,10 +4,15 @@ module.exports = {
     'deprecation': true,
     'eofline': true,
     'indent': [true, 'spaces'],
+    'invalid-void': true,
     'linebreak-style': [true, 'LF'],
     'max-classes-per-file': [true, 1],
     'max-file-line-count': [true, 300],
-    'max-line-length': [true, 120],
+    'max-line-length': [true, {
+      'limit': 120,
+      'check-strings': true,
+      'check-regex': true
+    }],
     'no-default-export': false,
     'no-default-import': false,
     'no-duplicate-imports': [true, {
