@@ -34,6 +34,7 @@ module.exports = {
     }],
     'no-any': false,
     'no-empty-interface': true,
+    'no-for-in': true,
     'no-import-side-effect': true,
     'no-inferrable-types': false,
     'no-internal-module': true,
@@ -60,8 +61,9 @@ module.exports = {
       'parameter',
       'arrow-parameter',
       'property-declaration',
-      'member-variable-declaration',
       'variable-declaration',
+      'variable-declaration-ignore-function',
+      'member-variable-declaration',
       'object-destructuring',
       'array-destructuring'
     ],
