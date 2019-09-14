@@ -20,7 +20,7 @@ module.exports = {
     'no-dynamic-delete': true,
     'no-empty': [true, 'allow-empty-catch'],
     'no-eval': true,
-    'no-floating-promises': false,
+    'no-floating-promises': true,
     'no-for-in-array': true,
     'no-implicit-dependencies': [true, 'dev'],
     'no-inferred-empty-object-type': true,
@@ -32,6 +32,7 @@ module.exports = {
     'no-object-literal-type-assertion': [true, {
       'allow-arguments': true
     }],
+    'no-promise-as-boolean': true,
     'no-restricted-globals': false,
     'no-return-await': true,
     'no-shadowed-variable': [true, {
@@ -72,15 +73,29 @@ module.exports = {
     'radix': true,
     'restrict-plus-operands': true,
     'static-this': true,
-    'strict-boolean-expressions': false,
+    'strict-boolean-expressions': [
+      true,
+      'allow-null-union',
+      'allow-undefined-union',
+      'allow-string',
+      'allow-enum',
+      'allow-number',
+      'allow-boolean-or-undefined',
+      'ignore-rhs'
+    ],
     'strict-comparisons': [true, {
       'allow-object-equal-comparison': true,
       'allow-string-order-comparison': true
     }],
+    'strict-string-expressions': [true, {
+      'allow-empty-types': true
+    }],
     'strict-type-predicates': true,
     'switch-default': true,
     'triple-equals': true,
-    'unnecessary-constructor': true,
+    'unnecessary-constructor': [true, {
+      'check-super-calls': true
+    }],
     'use-default-type-parameter': true,
     'use-isnan': true
   }
